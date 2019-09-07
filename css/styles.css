@@ -1,45 +1,77 @@
-body{
-    text-align:center;
+*{
+    box-sizing:border-box;
+}
+
+h2,h3{
     margin:0;
-    background-color:#a4d1c8;
 }
 
-a{
-    color:#a4d1c8;
-    text-decoration:none;
-    margin:20px;
+body{
+    background-color:#cf4520;
+    font-family:sans-serif;
+    margin:20px 0px;
 }
 
-a:hover{
-    color:#537d91;
+.wrapper{
+    background-color:white;
+    width:800px;
+    margin:0 auto;
+    border-radius: 10px;
 }
 
-h1{
-    background-color:#537d91;
-    color:#f77754;
-    font-family: 'Dancing Script', cursive;
-    font-size:5.625rem;
-    margin:0 auto auto;
-    
+header{
+    padding: 50px;
+    overflow:hidden;
+    background-color:white;
 }
 
-p{
-    color:#a537d91;
+header > #logo{
+    font-size:2em;
+}
+
+nav{
+    float:right;
+}
+
+#logo{
+    float:left;
+}
+
+#big-image{
+    position:relative;
+}
+
+main{
+    padding:50px;
+    overflow:hidden;
+}
+
+section{
+    float:left;
+    width:70%;
+}
+
+aside{
+    float:right;
+    width:30%;
+    background-color: rgb(224, 224, 23);
+}
+
+img{
+    image-orientation: from-image;
 }
 
 
-
-.header{
-    position:sticky;
-
-}
-
-.footer{
-    background-color:#584b42;
+footer{
     padding:20px;
-    margin:0 auto 0;
+    text-align:center;
+    border-top:1px solid #ccc;
+    bottom:0px;
+    background-color:white;
+    border-radius:10px;
 }
 
-.copyright{
-    color:white;
+.contact{
+    background-color:yellow;
+    align-content: center;
 }
